@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTAMP:20240224T073155Z
+UID:calendly-920778152
+DTSTART:20240226T070000Z
+DTEND:20240226T073000Z
+CLASS:PUBLIC
+DESCRIPTION:Event Name: 30 Minute Meeting\nDate & Time: 12:30pm - 01:00pm (
+ India Standard Time) on Monday\, February 26\, 2024\n\nPlease share anythi
+ ng that will help prepare for our meeting.: i have downloaded the apps tha
+ t are mentioned there expect the micro app and for the teams pro app i hav
+ e downloaded teams app. I have done the procedure you have mentioned and I
+  need to be checked by the team.Thank you\n\nNeed to make changes to this 
+ event?\nCancel: https://calendly.com/cancellations/0ff79122-ead0-4879-ae95
+ -b2c1e5f45e3f\nReschedule: https://calendly.com/reschedulings/0ff79122-ead
+ 0-4879-ae95-b2c1e5f45e3f\n
+ORGANIZER;CN=Easezo:no-reply@calendly.com
+SUMMARY:30 Minute Meeting with Easezo
+TRANSP:OPAQUE
+ATTENDEE:mailto:krangan415@gmail.com
+END:VEVENT
+END:VCALENDAR

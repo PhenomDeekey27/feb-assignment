@@ -60,6 +60,63 @@
 #filter-btn{
     visibility: none;
 }
+#Header-btn{
+    white-space: normal;
+}
 
+
+@media (max-width:575.98px){
+    .header{
+        width: 100% !important;
+    }
+    #header-img{
+        width: 150px;
+    }
+    #header-search{
+        display: none !important;
+    }
+    .header button p{
+        font-size: 15px !important;
+    }
+    #Main{
+        width: 400px;
+        padding: 50px;
+        height: 30vh;
+    }
+    #blog-content{
+        display: flex !important;
+        flex-direction: column;
+    }
+    #blog-header{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-around !important;
+    }
+    #nav-btn{
+        display: flex;
+        justify-content: space-around !important;
+        width: 100%;
+    }
+    #blog-contents{
+        display: flex !important;
+        flex-direction: column;
+    }
+    #blog-img{
+        height: 200px;
+    }
+    #location{
+        display: none;
+    }
+
+}
+
+@media (max-width:768px){
+    .header{
+        width: 100% !important;
+     
+    }
+   
+
+}
 
 

@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header class="d-flex justify-content-between align-items-center p-3 position-fixed w-100 top-0 bg-white z-1 sm-bg-black container-fluid"  id="navbar">
-        <img src="images/title.png" alt="title">
+    <header class=" header d-flex justify-content-between align-items-center p-3 position-fixed w-100 top-0 bg-white z-1  d-sm-flex"  id="navbar">
+        <img src="images/title.png" alt="title" id="header-img" class="img-fluid">
        
-        <div class="d-flex position-relative p-3 align-items-center justify-content-center">
+        <div class="d-flex position-relative p-3 align-items-center justify-content-center" id="header-search">
             <img src="images/search-icon.png" alt="search-icon"  id="search-icon">
             <input type="text" placeholder="Search for your favorite groups in ATG" id="header-input" class="bg-light border border-0 rounded-pill">
         </div>
        <!-- Button trigger modal -->
-<button type="button" class="btn bg-light " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn bg-light mw-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="Header-btn">
  
-      <div class="d-flex align-items-center justify-content-center gap-3 position-relative">
+      <div class="d-flex align-items-center justify-content-center gap-3 position-relative ">
             <p>Create Account.
                 <span class="text-primary fw-bold">It's Free</span>
               </p>
@@ -90,7 +90,7 @@
         </div>
       </div>
 
-      <section id="Main" class="container-fluid ">
+      <section id="Main" class="container-fluid bg-image">
         <div class="d-flex flex-column justify-content-end p-5 align-self-end text-center">
           <h1 class="text-white">Computer Engineering</h1>
           <h4 class="text-white">142,765 Computer Engineers follow this</h4>
@@ -101,8 +101,8 @@
       </section>
 
       <section id="blog" class="mt-4">
-        <div class="d-flex align-items-center justify-content-around border border-secondary-subtle border-start-0 border-end-0 border-top-0 ">
-          <div class="d-flex align-items-center justify-content-between gap-3 p-2">
+        <div class="d-flex align-items-center justify-content-around border border-secondary-subtle border-start-0 border-end-0 border-top-0 justify-content-sm-around w-100 gap-sm-5 align-items-sm-center m-sm-3 d-flex-md" id="blog-content">
+          <div class="d-flex align-items-center justify-content-between gap-3 p-2 p-sm-0" id="blog-header">
            
             <p class="text-black border border-black border-start-0 border-end-0 border-top-0 pb-1" id="nav" style="cursor: pointer;">All posts (32)
               
@@ -113,15 +113,15 @@
             <p class="text-secondary" id="nav" style="cursor: pointer;">Job</p>
 
           </div>
-          <div id="nav-btn">
+          <div id="nav-btn" class="d-sm-flex ">
            
-            <button type="button" class="btn bg-light text-black border border-0 fw-bold ">
+            <button type="button" class="btn bg-light text-black border border-0 fw-bold w-100">
               Write a Post
               <img src="images/Vector.png" alt="Vector" >
 
             </button>
 
-            <button type="button" class="btn btn-primary" data-bs-toggle="button" id="join-btn"> 
+            <button type="button" class="btn btn-primary w-100" data-bs-toggle="button" id="join-btn"> 
               <i class="fa-solid fa-user-plus"></i>
               Join Group
             </button>
@@ -134,7 +134,7 @@
         <div id="blog-contents" class="mt-2 d-flex p-2 gap-2">
           <div id="blog-details">
             <div id="blog-1" class="p-3">
-              <img src="images/blog-img-1.png" alt="blog-1" id="blog-img">
+              <img src="images/blog-img-1.png" alt="blog-1" id="blog-img"  class="img-fluid">
               <h4 class="mt-3">✍️ Article</h4>
               <div class="d-flex justify-content-between">
                 <h4>What if famous brands had regular fonts? Meet RegulaBrands!</h4>
